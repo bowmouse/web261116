@@ -16,6 +16,7 @@ const best = (list) => {
     }
     return top;
 }
+
 const filterByRating = (list, min) => {
     return list.filter(m => m.rating >= min);
 }
